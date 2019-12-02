@@ -1,0 +1,50 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+main {
+    min-height: 100%;
+    padding-top: 5%;
+    font-size: 130%;
+}
+
+footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 10px solid black;
+    color: whitesmoke;
+    background-color: rgb(50,50,50);
+}
+
+.bigimage {
+    /* The image used */
+    background-image: url("../images/servers.jpg");
+    box-shadow: inset 0 0 0 100vmax rgba(0, 0, 0, .6);
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    text-align: center;
+    color: white;
+}
+
+main p {
+    padding-bottom: 2%;
+}
+
+#CMcontainer{
+    background: #007bff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+#CMcontainer a{
+    color: black;
+}
